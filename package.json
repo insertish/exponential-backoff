@@ -1,7 +1,6 @@
 {
-  "type": "module",
   "name": "@insertish/exponential-backoff",
-  "version": "3.1.0-patch.1",
+  "version": "3.1.0-patch.2",
   "description": "A utility that allows retrying a function with an exponential delay between attempts.",
   "main": "dist/backoff.js",
   "typings": "dist/backoff.d.ts",

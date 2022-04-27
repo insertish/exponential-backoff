@@ -1,12 +1,13 @@
 {
   "type": "module",
   "name": "@insertish/exponential-backoff",
-  "version": "3.1.0-patch.0",
+  "version": "3.1.0-patch.1",
   "description": "A utility that allows retrying a function with an exponential delay between attempts.",
   "main": "dist/backoff.js",
-  "types": "dist/backoff.d.ts",
+  "typings": "dist/backoff.d.ts",
+  "module": "esm/backoff.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && tsc -p tsconfig.cjs.json",
     "test": "jest",
     "test:watch": "jest --watch"
   },
